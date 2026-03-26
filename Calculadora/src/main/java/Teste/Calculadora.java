@@ -1,11 +1,11 @@
 package Teste;
 
 public class Calculadora {
-    public int soma(int a,int b){
+    public double soma(double a,double b){
         return a+b;
     }
     
-    public int subtracao (int a, int b){
+    public double subtracao (double a, double b){
         return a-b;
     }
     
@@ -17,9 +17,8 @@ public class Calculadora {
         if (b != 0){
             return a/b;
         } else{
-            System.out.println("o valor de b não pode ser igual a 0");
+            System.out.println("o valor do dividendo não pode ser igual a 0");
             return Double.NaN;
         }
-        
     }
 }
